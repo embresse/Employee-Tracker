@@ -8,7 +8,7 @@ const table = require("console.table");
 function init (){
     const message = "Employee Manager";
     figlet(message, (err, data)=> {
-        console.log(gradient.pastel.multiline(data))
+        console.log(gradient.summer.multiline(data))
         mainMenu();
     })
 }
